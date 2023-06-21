@@ -51,6 +51,8 @@ p {
 /* || HEADER */
 
 .header {
+  padding-bottom: 128px;
+
   background-color: #1F2937;
 
   display: flex;
@@ -90,7 +92,45 @@ p {
 /* || HERO */
 
 .hero {
+  padding-bottom: 128px;
+
   background-color: #1F2937;
+
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.hero-title {
+  margin: 0;
+
+  font-size: 48px;
+  font-weight: 800;
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping for common weight name mapping */
+  color: #F9FAF8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-button-sign-up {
+  padding: 4px 12px;
+  max-width: 75px;
+}
+
+.hero-image {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* || MEDIA */
