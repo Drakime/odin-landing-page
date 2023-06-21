@@ -1,0 +1,41 @@
+/* || IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* || GENERAL STYLES */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* || UTILITIES */
+
+.nobullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* || SITEWIDE */
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  background-color: rgb(167, 201, 201);
+  flex: 1;
+  border: 1px solid #000;
+}
