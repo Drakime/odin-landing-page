@@ -181,7 +181,31 @@ p {
 /* || QUOTE */
 
 .quote {
+  padding: 128px;
+  
   background-color: #E5E7EB;
+
+  display: flex;
+  justify-content: center;
+}
+
+.quote-wrapper {
+  color: #1F2937;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* || FOOTER */
