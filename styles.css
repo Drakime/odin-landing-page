@@ -45,7 +45,7 @@ p {
 }
 
 .container-wrapper {
-  max-width: 1200px;
+  max-width: 800px;
 }
 
 /* || HEADER */
@@ -126,7 +126,7 @@ p {
 
 .hero-button-sign-up {
   padding: 6px 12px;
-  max-width: 75px;
+  width: 100px;
 
   background-color: #3882F6;
   border-style: none;
@@ -161,6 +161,8 @@ p {
 
 .media-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 36px;
 }
 
@@ -181,8 +183,8 @@ p {
 /* || QUOTE */
 
 .quote {
-  padding: 128px;
-  
+  padding: 128px 0;
+
   background-color: #E5E7EB;
 
   display: flex;
@@ -206,6 +208,49 @@ p {
   text-align: end;
   font-size: 24px;
   font-weight: bold;
+}
+
+/* || MODAL */
+
+.modal {
+  padding: 128px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-wrapper {
+  background-color: #3882F6;
+  width: 700px;
+  padding: 32px 96px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-title {
+  color: #F9FAF8;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.modal-subtitle {
+  color: #E5E7EB;
+}
+
+.modal-button-sign-up {
+  padding: 6px 12px;
+  width: 100px;
+
+  background-color: #3882F6;
+  border: 2px solid #E5E7EB;
+  border-radius: 6px;
+  color: #E5E7EB;
+  font-weight: bold;
+
+  align-self: center;
 }
 
 /* || FOOTER */
