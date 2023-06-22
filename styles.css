@@ -41,7 +41,6 @@ p {
 
 .container {
   flex: 1;
-  border: 1px solid #000;
 }
 
 .container-wrapper {
@@ -256,5 +255,12 @@ p {
 /* || FOOTER */
 
 .footer {
+  padding: 30px;
+
   background-color: #1F2937;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
